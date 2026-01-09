@@ -2,7 +2,8 @@ import { useEffect, useState } from "react";
 import axios from "axios";
 import "./App.css";
 
-const API_URL = "https://contact-management-app-d41a.onrender.com/";
+const API_URL =
+  "https://contact-management-app-d41a.onrender.com/api/v1/contacts";
 
 
 function App() {
